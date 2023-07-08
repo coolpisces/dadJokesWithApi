@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: tomato;
+    padding: 30px;
+    border-radius: 20px;
+    text-align: center;
+    width: 700px;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+
+.title {
+    color: white;
+    margin-bottom: 20px;
+}
+
+.btn {
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+    background-color: white;
+    color: rgb(51, 203, 31);
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.joke {
+    margin: 20px;
+}
